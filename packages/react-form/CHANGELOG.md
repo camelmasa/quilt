@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.11.0] - 2020-12-16
+
+- Add new build outputs (CommonJS, ESM, esnext, Node) for greater tree-shakability [#1698](https://github.com/Shopify/quilt/pull/1698)
+
 ## [0.10.0] - 2020-12-08
 
 - Added new functionality to `useDynamicList`. Added the ability to dynamically add more than one list item and the ability to pass in an argument into the dynamic list factory. [#1679](https://github.com/Shopify/quilt/pull/1679)
